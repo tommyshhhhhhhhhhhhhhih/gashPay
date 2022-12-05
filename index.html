@@ -7,6 +7,7 @@
 	<link rel="icon" type="image/png" href="img/favicon.ico">
 	<title>GASH Pay</title>
 	<link rel="stylesheet" href="css/styles.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 	<header>
@@ -50,7 +51,7 @@
 	<main>
 		<section class="kv-block">
 			<div class="center">
-				<div class="kv-desc">
+				<div class="kv-desc" data-aos="fade-up">
 					<p class="title">為每次交易模式<br>提供便捷、多元的服務</p>
 					<p class="desc">擁有第三方支付平台的 GASH PAY 將安全構建您的支付工具並擴展您的業務值得成為您的道路上夥伴</p>
 					<a href="mailto:gashcardservice@gashpoint.com?
@@ -73,7 +74,7 @@
 			</div>
 			<div class="kv-img"><img src="img/KV.svg" alt="KV" title="KV"></div>
 		</section>
-		<section class="about-block" id="about">
+		<section class="about-block" id="about" data-aos="fade-up">
 			<div class="center">
 				<h2>一個為商店提供流暢的第三方支付金流平台</h2>
 				<div class="item">
@@ -102,7 +103,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="goldflow-block">
+		<section class="goldflow-block" data-aos="fade-up">
 			<div class="center">
 				<div class="title-h2">
 					<p class="tab">金流結構</p>
@@ -111,7 +112,7 @@
 				<img src="img/goldflow.svg" alt="goldflow" title="goldflow">
 			</div>
 		</section>
-		<section class="service-block" id="service">
+		<section class="service-block" id="service" data-aos="fade-up">
 			<div class="center">
 				<div class="title-h2">
 					<p class="tab">服務優勢</p>
@@ -154,21 +155,21 @@
 				</div>
 			</div>
 		</section>
-		<section class="risk-block">
+		<section class="risk-block" data-aos="fade-up">
 			<div class="center">
 				<div class="risk-img">
 					<div class="left">
 						<ul>
-							<li><img src="img/risk-3d.svg" alt="3d" title="3d"></li>
-							<li><img src="img/risk-pci.svg" alt="pci" title="pci"></li>
-							<li><img src="img/risk-iso.svg" alt="iso" title="iso"></li>
+							<li data-aos="zoom-in-down"><img src="img/risk-3d.svg" alt="3d" title="3d"></li>
+							<li data-aos="zoom-in-down"><img src="img/risk-pci.svg" alt="pci" title="pci"></li>
+							<li data-aos="zoom-in-down"><img src="img/risk-iso.svg" alt="iso" title="iso"></li>
 						</ul>
 					</div>
 					<div class="middle"><img src="img/risk-phone.svg" alt="phone" title="phone"></div>
 					<div class="right">
 						<ul>
-							<li><img src="img/risk-verizon.svg" alt="verizon" title="verizon"></li>
-							<li><img src="img/risk-bsi.svg" alt="bsi" title="bsi"></li>
+							<li data-aos="zoom-in-down"><img src="img/risk-verizon.svg" alt="verizon" title="verizon"></li>
+							<li data-aos="zoom-in-down"><img src="img/risk-bsi.svg" alt="bsi" title="bsi"></li>
 						</ul>
 					</div>
 				</div>
@@ -205,7 +206,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="starter-block" id="starter">
+		<section class="starter-block" id="starter" data-aos="fade-up">
 			<div class="center">
 				<div class="title-h2">
 					<p class="tab">入門很容易</p>
@@ -259,29 +260,9 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script src="./js/vue.min.js"></script>
 	<script src="./js/main.js"></script>
-	<script>
-		var vm = new Vue({
-            el: '#app',
-            data() {
-                return {
-                    status: 1,
-                    missionInfo: '透過原子少年盲盒，抽中 浦俊素 10 個即可換得大獎，並有機會抽中超級好禮。透過原子少年盲盒，抽中透過原子少年盲盒，抽中 浦俊素 10 個即可換得大獎，並有機會抽中超級好禮。透過原子透過原子透過原子哈',
-                    title:'位置',
-                    popupStatus: 1,
-                }
-            },
-            methods: {
-            }
-        })
-
-		$(document).ready(function(){
-			$('.nav-icon').click(function(){
-				$(this).toggleClass('open');
-			});
-		});
-	</script>
-
-
-	
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+		AOS.init();
+	</script>	
 </body>
 </html>

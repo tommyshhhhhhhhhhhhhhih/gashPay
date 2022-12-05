@@ -7,6 +7,7 @@
 	<link rel="icon" type="image/png" href="img/favicon.ico">
 	<title>特約商店服務規範 | GASH Pay</title>
 	<link rel="stylesheet" href="css/styles.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 	<header>
@@ -58,8 +59,8 @@
 		</aside>
 		<article>
 			<h3>特約商店服務規範</h3>
-			<p>會員向本公司申請收款功能時，應依本公司相關程序進行驗證並提供相關資料文件，經本公司驗證通過後，會員即取得特約商店資格得依本公司提供之各項收款方式進行交易收款。</p>
-			<section>
+			<p data-aos="fade-up">會員向本公司申請收款功能時，應依本公司相關程序進行驗證並提供相關資料文件，經本公司驗證通過後，會員即取得特約商店資格得依本公司提供之各項收款方式進行交易收款。</p>
+			<section data-aos="fade-up">
 				<h4>1.會員同意事項</h4>
 				<ul>
 					<li>
@@ -131,7 +132,7 @@
 					</li>
 				</ul>
 			</section>
-			<section>
+			<section data-aos="fade-up">
 				<h4>2.網際網路交易</h4>
 				<ul>
 					<li>
@@ -188,7 +189,7 @@
 					</li>
 				</ul>
 			</section>
-			<section>
+			<section data-aos="fade-up">
 				<h4>3.信用卡款項代理收付服務特別約定</h4>
 				<p>若會員申請使用本收款服務提供之信用卡款項代理收付服務，會員應同意遵守以下事項：</p>
 				<ul>
@@ -342,7 +343,7 @@
 					</li>
 				</ul>
 			</section>
-			<section>
+			<section data-aos="fade-up">
 				<h4>4.保密義務及所有權</h4>
 				<ul>
 					<li>
@@ -372,7 +373,7 @@
 					</li>
 				</ul>
 			</section>
-			<section>
+			<section data-aos="fade-up">
 				<h4>5.內容修訂</h4>
 				<ul>
 					<li>
@@ -425,29 +426,9 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script src="./js/vue.min.js"></script>
 	<script src="./js/main.js"></script>
-	<script>
-		var vm = new Vue({
-            el: '#app',
-            data() {
-                return {
-                    status: 1,
-                    missionInfo: '透過原子少年盲盒，抽中 浦俊素 10 個即可換得大獎，並有機會抽中超級好禮。透過原子少年盲盒，抽中透過原子少年盲盒，抽中 浦俊素 10 個即可換得大獎，並有機會抽中超級好禮。透過原子透過原子透過原子哈',
-                    title:'位置',
-                    popupStatus: 1,
-                }
-            },
-            methods: {
-            }
-        })
-
-		$(document).ready(function(){
-			$('.nav-icon').click(function(){
-				$(this).toggleClass('open');
-			});
-		});
-	</script>
-
-
-	
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+		AOS.init();
+	</script>	
 </body>
 </html>

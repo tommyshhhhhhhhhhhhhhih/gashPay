@@ -7,6 +7,7 @@
 	<link rel="icon" type="image/png" href="img/favicon.ico">
 	<title>資安認證 | GASH Pay</title>
 	<link rel="stylesheet" href="css/styles.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 	<header>
@@ -58,14 +59,14 @@
 		</aside>
 		<article>
 			<h3>資安認證</h3>
-			<section>
+			<section data-aos="fade-up">
 				<h4>PCI-DSS 3.2.1支付卡產業資料安全標準認證</h4>
 				<p>樂點取得PCI-DSS 3.2 1支付卡產業資料安全標準認證(Payment Card Industry Data Security Standard)，保障買賣雙方的交易安全，讓持卡人資料的安全得到更可靠的保障。</p>
 				<div class="img">
 					<img src="img/PCI-DSS-3.2.1.jpg" alt="PCI-DSS 3.2.1" title="PCI-DSS 3.2.1">
 				</div>
 			</section>
-			<section>
+			<section data-aos="fade-up">
 				<h4>ISO 27001資訊安全管理系統認證</h4>
 				<p>樂點取得ISO27001資訊安全管理系統(Information Security Management System) 認證，加強資訊安全控管，讓用戶對資訊安全更有信心，並讓資訊安全管理系統與國際標準接軌。</p>
 				<div class="img">
@@ -89,29 +90,9 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script src="./js/vue.min.js"></script>
 	<script src="./js/main.js"></script>
-	<script>
-		var vm = new Vue({
-            el: '#app',
-            data() {
-                return {
-                    status: 1,
-                    missionInfo: '透過原子少年盲盒，抽中 浦俊素 10 個即可換得大獎，並有機會抽中超級好禮。透過原子少年盲盒，抽中透過原子少年盲盒，抽中 浦俊素 10 個即可換得大獎，並有機會抽中超級好禮。透過原子透過原子透過原子哈',
-                    title:'位置',
-                    popupStatus: 1,
-                }
-            },
-            methods: {
-            }
-        })
-
-		$(document).ready(function(){
-			$('.nav-icon').click(function(){
-				$(this).toggleClass('open');
-			});
-		});
-	</script>
-
-
-	
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+		AOS.init();
+	</script>	
 </body>
 </html>

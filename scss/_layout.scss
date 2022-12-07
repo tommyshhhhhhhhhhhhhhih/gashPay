@@ -52,7 +52,7 @@ header {
 	position: fixed;
 	top: 0;
 	left: 0;
-	z-index: 1;
+	z-index: 9;
 	.center{
 		max-width: 1280px;
 		display: flex;
@@ -416,8 +416,9 @@ article{
 		margin-bottom: 40px;
 		background-color: #E3F0FA;
 		top: 77px;
+		z-index: 8;
 		ul{
-			padding: 0 30px;
+			padding: 0 20px;
 			display: flex;
 			white-space: nowrap;
 			overflow-y: hidden;
@@ -446,7 +447,7 @@ article{
 		}
 	}
 	article{
-		width: calc(100% - 60px);
+		width: calc(100% - 40px);
 		margin: 0 auto;
 		h3{
 			margin-bottom: 20px;

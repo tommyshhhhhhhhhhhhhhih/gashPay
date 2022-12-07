@@ -927,7 +927,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 9;
 }
 
 header .center {
@@ -1349,9 +1349,10 @@ article section .img img {
     margin-bottom: 40px;
     background-color: #E3F0FA;
     top: 77px;
+    z-index: 8;
   }
   aside ul {
-    padding: 0 30px;
+    padding: 0 20px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1381,7 +1382,7 @@ article section .img img {
     font-size: calc(1.4 * var(--font-size));
   }
   article {
-    width: calc(100% - 60px);
+    width: calc(100% - 40px);
     margin: 0 auto;
   }
   article h3 {

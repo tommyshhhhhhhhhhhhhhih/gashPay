@@ -33,6 +33,10 @@ $(document).ready(function() {
     });
 
     //mobile nav
+	$('.nav-icon').click(function(){
+		$(this).toggleClass('open');
+	});
+
     var windowWidth = window.innerWidth;
     
     if(windowWidth < 1024){

@@ -28,13 +28,16 @@ main{
 		padding: 90px 0;
 	}
 	.anchor-point{
-		transform: translateY(-76px);
+		transform: translateY(-40px);
 	}
 }
 @media screen and (max-width: 768px) {
 	main{
 		section{
 			padding: 70px 0;
+		}
+		.anchor-point{
+			transform: translateY(-70px);
 		}
 	}
 }//max-width: 768px

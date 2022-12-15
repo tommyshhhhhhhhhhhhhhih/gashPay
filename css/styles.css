@@ -907,13 +907,17 @@ main section {
 }
 
 main .anchor-point {
-  -webkit-transform: translateY(-76px);
-          transform: translateY(-76px);
+  -webkit-transform: translateY(-40px);
+          transform: translateY(-40px);
 }
 
 @media screen and (max-width: 768px) {
   main section {
     padding: 70px 0;
+  }
+  main .anchor-point {
+    -webkit-transform: translateY(-70px);
+            transform: translateY(-70px);
   }
 }
 

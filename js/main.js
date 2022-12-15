@@ -57,7 +57,7 @@ $(document).ready(function() {
         $('button.nav-icon').removeClass('open');
         $('body').removeClass('hidden');
         $('html, body').animate({
-            scrollTop: $('#about').offset().top - 76
+            scrollTop: $('#about').offset().top
         }, 800);
     });
     $('.service').click(function(){
@@ -65,7 +65,7 @@ $(document).ready(function() {
         $('button.nav-icon').removeClass('open');
         $('body').removeClass('hidden');
         $('html, body').animate({
-            scrollTop: $('#service').offset().top - 76
+            scrollTop: $('#service').offset().top
         }, 800);
     });
     $('.starter').click(function(){
@@ -73,7 +73,7 @@ $(document).ready(function() {
         $('button.nav-icon').removeClass('open');
         $('body').removeClass('hidden');
         $('html, body').animate({
-            scrollTop: $('#starter').offset().top - 76
+            scrollTop: $('#starter').offset().top
         }, 800);
     });
 });

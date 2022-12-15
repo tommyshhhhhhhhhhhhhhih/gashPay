@@ -916,8 +916,8 @@ main .anchor-point {
     padding: 70px 0;
   }
   main .anchor-point {
-    -webkit-transform: translateY(-60px);
-            transform: translateY(-60px);
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
   }
 }
 
